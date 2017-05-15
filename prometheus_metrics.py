@@ -38,4 +38,4 @@ def setup_metrics(app):
 
     @app.route('/metrics')
     def metrics():
-return Response(generate_latest(), mimetype="text/plain")
+        return Response(generate_latest(), mimetype="text/plain")
