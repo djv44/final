@@ -27,4 +27,4 @@ class FlaskrTestCase(unittest.TestCase):
         rv = self.app.get('/my-topic')    
         assert b'Football Cards!' in rv.data
 if __name__ == '__main__':
-unittest.main()
+    unittest.main()
